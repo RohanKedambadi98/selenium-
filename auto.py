@@ -23,8 +23,8 @@ def rad(txt):
 driver=webdriver.Chrome(executable_path="D:\\chromedriver.exe")
 
 driver.get("https://eventsget.com/account/signin")
-driver.find_element_by_name('emailid').send_keys("rohankedambadi@gmail.com")
-driver.find_element_by_name('password').send_keys("forintern")
+driver.find_element_by_name('emailid').send_keys("emailid")
+driver.find_element_by_name('password').send_keys("password")
 driver.find_element_by_name('login').click()
 driver.find_element_by_xpath('//*[@id="right-section"]/div[2]/div/div/div[1]/div/div/div[2]/a').click()
 
